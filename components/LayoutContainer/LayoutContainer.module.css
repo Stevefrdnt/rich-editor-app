@@ -1,0 +1,12 @@
+.styContainer {
+  margin: 20px auto;
+  width: 800px;
+  padding-bottom: 150px;
+}
+
+@media only screen and (max-width: 800px) {
+  .styContainer {
+    width: 100%;
+    padding: 20px 20px 300px;
+  }
+}

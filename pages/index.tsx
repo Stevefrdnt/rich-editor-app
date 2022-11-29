@@ -1,5 +1,6 @@
 import Head from "next/head";
 import RichEditor from "components/RichEditor";
+import LayoutContainer from "components/LayoutContainer";
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
         <meta name='description' content='This is definitely not medium.com' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <RichEditor />
+      <LayoutContainer>
+        <RichEditor />
+      </LayoutContainer>
     </div>
   );
 }

@@ -1,0 +1,9 @@
+.styContainer {
+  background-color: #e6f4ff;
+  border-radius: 10px;
+  border: 1px solid #91caff;
+  font-style: italic;
+  padding: 16px;
+  text-align: center;
+  margin: 12px;
+}

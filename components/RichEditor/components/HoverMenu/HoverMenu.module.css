@@ -1,0 +1,25 @@
+.styContainer {
+  border-radius: 15px;
+  bottom: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  left: 50%;
+  padding: 8px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .styContainer {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    left: 50%;
+    width: 95%;
+    padding: 8px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: white;
+  }
+}
