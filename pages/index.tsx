@@ -3,7 +3,7 @@ import RichEditor from "components/RichEditor";
 import LayoutContainer from "components/LayoutContainer";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import "antd/dist/antd.css";
+import "antd/dist/reset.css";
 config.autoAddCss = false;
 
 export default function Home() {
