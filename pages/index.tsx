@@ -17,6 +17,8 @@ export default function Home() {
       <LayoutContainer>
         <RichEditor />
       </LayoutContainer>
+      {/* to tackle antd.css module not found issue */}
+      <script></script>;
     </div>
   );
 }
